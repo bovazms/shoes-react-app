@@ -1,0 +1,53 @@
+.yoo {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(7, 197, 23, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  
+  .yoo .card-img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .yoo .card-body {
+    padding: 16px;
+    background-color: #f7f7f7;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .yoo .card-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .yoo .card-text {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .yoo button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .yoo button:hover {
+    background-color: #555;
+  }

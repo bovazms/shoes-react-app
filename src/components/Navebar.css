@@ -1,0 +1,18 @@
+.login-session{
+    margin-left: 500px;
+    
+}
+.login-session {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heyy{ 
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(78, 73, 73);
+  }
+  
+  .login-session .login:hover {
+    color: red;
+  }

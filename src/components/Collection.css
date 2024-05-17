@@ -1,0 +1,106 @@
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .row {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+    width: 100%;
+  }
+  
+  .col-lg-4 {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+  }
+  
+  .mt-3 {
+    margin-top: 1.5rem;
+  }
+  
+  .hovereffect {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .hovereffect:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hovereffect img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hovereffect .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+  }
+  
+  .hovereffect .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .hovereffect:hover .overlay-text {
+    opacity: 1;
+  }
+  
+  .hovereffect h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hovereffect p {
+    font-size: 1.4rem;
+  }
+
+
+
+
+  
+
+  .btn-like.liked {
+    animation: like-animation 0.5s ease-out;
+  }
+  
+  @keyframes like-animation {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+  }
+  
+  
+  /* Add any additional styles or modifications as needed */
+  
